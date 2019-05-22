@@ -10,7 +10,7 @@ YELLOW="\033[1;33m"; RED="\033[0;31m"; ENDCOLOR="\033[0m"
 echo ""
 echo -e $YELLOW"Installing Colorado Background Images..."$ENDCOLOR 
 sleep 1s
-cp -arv ./backgrounds/* /usr/share/backgrounds/Colorado/
+cp -arv ./backgrounds /usr/share/backgrounds/Colorado
 
 echo ""
 echo -e $YELLOW"Installing Colorado Boot Images..."$ENDCOLOR 
